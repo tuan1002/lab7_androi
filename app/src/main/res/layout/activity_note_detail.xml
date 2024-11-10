@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:paddingTop="30sp"
+    android:paddingLeft="10sp"
+    android:paddingRight="10sp">
+
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tiêu đề"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/editTextContent"
+        android:layout_width="393dp"
+        android:layout_height="477dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_background"
+        android:gravity="top"
+        android:hint="Nội dung"
+        android:padding="12dp"
+        android:textColor="@android:color/black" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/buttonSaveNote"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/yelow"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:text="Lưu"
+            android:textSize="20sp"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/buttonDeleteNote"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/red"
+            android:layout_marginStart="8dp"
+            android:drawablePadding="8dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="Xóa"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>
